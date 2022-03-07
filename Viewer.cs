@@ -20,7 +20,7 @@ namespace EditorHTML
 
         }
 
-        public static async void Replace(string text)
+        public static void Replace(string text)
         {
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/|s*strong>");
             var words = text.Split(' ');
